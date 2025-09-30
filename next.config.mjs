@@ -5,7 +5,7 @@ const nextConfig = {
   images: {
     unoptimized: true
   },
-  assetPrefix:  '/portfolio-nextjs/',
+  assetPrefix:  '/',
   basePath: '/portfolio-nextjs'
 }
 
