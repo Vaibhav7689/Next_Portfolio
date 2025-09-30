@@ -58,12 +58,7 @@ jobs:
             ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json', '**/yarn.lock') }}-
 
       - name: Install dependencies
-        run: |
-          if [ -f "yarn.lock" ]; then
-            yarn install
-          else
-            npm ci
-          fi
+        run: npm install
 
 
       - name: Build Next.js static site
