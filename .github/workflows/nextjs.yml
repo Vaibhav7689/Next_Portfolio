@@ -22,10 +22,10 @@ jobs:
     needs: build
     runs-on: self-hosted
     steps:
+      - name: Remove unused 
+        run: sudo docker system prune -af --volumes
       - name: Pull image from docker hub
         run: sudo docker pull vaibhav805/next_portfolio:latest
-      - name: Remove unused volume
-        run: sudo docker volume prune -f
       - name: Delete old container
         run: sudo docker rm -f next_portfolio
       - name: Run docker container
