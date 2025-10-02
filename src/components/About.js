@@ -17,7 +17,7 @@ export default function About() {
             <p>
               Currently developing projects like DeployVerse (deployment platform) and 
               Project Hub (student showcase platform) while preparing for opportunities 
-              in financial analysis and fintech companies. 
+              in financial analysis and fintech  companies. 
             </p>
             
             <div className="about-stats">
