@@ -8,7 +8,7 @@ export default function About() {
         
         <div className="about-content">
           <div className="about-text" data-aos="fade-right">
-            <h3>Cloud-Native & DevOps Engineer</h3>
+            <h3>Cloud-Native & DevOps Engineer | Frontend Developer</h3>
             <p>
               “I am a Cloud and DevOps Engineer with a strong background in full stack development,
                passionate about building scalable, automated, and reliable systems.”
