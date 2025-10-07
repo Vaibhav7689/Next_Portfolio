@@ -15,8 +15,8 @@ export default function About() {
             </p>
             
             <p>
-              Currently developing projects like DeployVerse (deployment platform) and 
-              Project Hub (student showcase platform). 
+              Currently developing projects like Nurture.Me (stress managemen platform) and 
+              UNITY Platform (inter-college clubs centalized platform). 
             </p>
             
             <div className="about-stats">
